@@ -1,0 +1,1 @@
+Documentation for the [Geometrize](https://github.com/Tw1ddle/geometrize-twitter-bot) Twitter bot, a tool for geometrizing images into geometric primitives.

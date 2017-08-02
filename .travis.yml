@@ -1,0 +1,44 @@
+dist: trusty
+sudo: false
+
+# Add encrypted API key
+env:
+  global:
+    - secure: VwCj9EJ4A81ryul6+ibOW4AKoA7PggBb5QtpBWUuitCbYUb7B9OvK1MsJ22YVotvrbapz0uaZuLPk4ei37uSGIyICjnKBvqWmdzDpSMFBRP+echgpHaDcrCfGpE8bCZt91lmDQmfrHRaZMV8/hcPEvVZQX3woisfj5RgHVhFJHQ0k9ZUrEvnPmysOUlaaWDootwVIeCJMwm+PbMJm64vIZvWz2XBh2QGhuj6/GBBD4k10y05PvykmvUYUyIJRZ/zPOKpPhRih8wkqu/SPq2t3gLsBT6JJ/zD2aKsbyCe9NRr7HbZ8yFbbTA3K652XYMkJZxyd5vcymRIlLkYXJtfUerfqGI0dc0n2rtg/YnoLwJ+xfvUVDPDvCBxqiIq9J/PGBO66P191hIVAlecPM/dRD25v7XfaSUZIrg7vVjOLuqB5iUqlYwuEzrUuQ6z8Y4TODPr5w9Rargg+Px+Kx6vjF7Vf4gm6K179nPsM3pVLrwQqwGkM8vkOEqeqo2XWrKso5IOJ/5KCk/1dmWblRT2agtxd4vFfdsk2SUBuFo3m0xlnvfD6EDJeKl/AcS5+txDmq80mRlG+dzwl4nrgi7eOuDyLdQ3awfn8hMdZ5XjfM3rzYzdDscmVwD6zNSVPFpNRTY3UXQ7hwllaLvGW88Z5miC6eYq+kLE3H9IzQ/ZAAQ=
+
+# Get the latest version of the Geometrize Twitter bot submodule, and push it to the remote (if necessary)
+before_install:
+  - chmod +x ./travis_update_geometrize_twitter_bot_submodule.sh
+  - ./travis_update_geometrize_twitter_bot_submodule.sh
+
+# Blacklist
+branches:
+  only:
+    - master
+
+# Install dependencies
+addons:
+  apt:
+    packages:
+      - doxygen
+      - doxygen-doc
+      - doxygen-latex
+      - doxygen-gui
+      - graphviz
+
+# Build the documentation
+script:
+  - pushd doxygen
+  - doxygen doxygen_config
+  - popd
+
+# Deploy the generated documentation using Travis builtin GitHub Pages support
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: $TRAVIS_BUILD_DIR/docs/
+  github_token: $GITHUB_API_KEY
+  # Sets the CNAME file for the custom domain (not enough to just set it on the Github page settings)
+  fqdn: botdocs.geometrize.co.uk
+  on:
+    branch: master

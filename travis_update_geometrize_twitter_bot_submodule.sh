@@ -9,7 +9,7 @@ if [[ `git status --porcelain` ]]; then
   git config --global user.email "travis@travis-ci.org"
   git config --global user.name "Travis CI Bot"
   git checkout master
-  git add geometrize
+  git add geometrize-twitter-bot
   git commit --message "Travis bot updating submodule and rebuilding documentation"
   git remote rm origin
   git remote add origin https://${GITHUB_API_KEY}@github.com/Tw1ddle/geometrize-twitter-bot-docs.git > /dev/null 2>&1

@@ -5,7 +5,9 @@
 
 Documentation for the [Geometrize](http://www.geometrize.co.uk/) [Twitter bot](https://twitter.com/geometrizer), a tool for geometrizing images into geometric primitives.
 
-Read the latest documentation [here](http://botdocs.geometrize.co.uk). The documentation is updated when this repository or the Twitter bot [repository](https://github.com/Tw1ddle/geometrize-twitter-bot) changes.
+The documentation is updated when this repository or the Twitter bot [repository](https://github.com/Tw1ddle/geometrize-twitter-bot) changes.
+
+Read the latest documentation [here](http://botdocs.geometrize.co.uk).
 
 ## Manual Documentation Builds
  * Install Doxygen and Graphviz. Add Doxygen and the Dot tool to your path.

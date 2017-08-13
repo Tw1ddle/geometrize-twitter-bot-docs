@@ -9,14 +9,12 @@ The documentation is updated when this repository or the Twitter bot [repository
 
 Read the latest documentation [here](http://botdocs.geometrize.co.uk).
 
-## Manual Documentation Builds
+[![Geometrized Lynx](https://github.com/Tw1ddle/geometrize-twitter-bot-docs/blob/master/screenshots/geometrized_lynx.jpg?raw=true "Geometrized Lynx, 400 triangles")](http://www.geometrize.co.uk/)
+
+## Building Manually
  * Install Doxygen and Graphviz. Add Doxygen and the Dot tool to your path.
  * Run ```doxygen doxygen_config``` in the ```doxygen``` directory.
  * Open the generated HTML in the ```docs``` folder.
-
-
-[![Geometrized Lynx](https://github.com/Tw1ddle/geometrize-twitter-bot-docs/blob/master/screenshots/geometrized_lynx.jpg?raw=true "Geometrized Lynx, 400 triangles")](http://www.geometrize.co.uk/)
-
 
 ## Notes
  * Doxygen warnings are written to ```doxygen_warnings.txt``` in the ```doxygen``` folder.

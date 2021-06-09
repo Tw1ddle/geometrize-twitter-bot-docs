@@ -1,0 +1,9 @@
+<map id="script_wrangler.replace_tag" name="script_wrangler.replace_tag">
+<area shape="rect" id="node2" href="$namespacegeometrize.html#ac7c82e37aed85bdd97e4f32f60714460" title="Performs some basic tests to ensure that Geometrize can run scripts and turn images into shapes prope..." alt="" coords="238,5,421,32"/>
+<area shape="rect" id="node3" href="$namespacescript__wrangler.html#a3fc53c6aef2e2a18eb8f96077e59157d" title="Replaces all instances of template ::TAG::s in the code from the given dictionary with their correspo..." alt="" coords="235,56,423,83"/>
+<area shape="rect" id="node4" href="$namespacegeometrize.html#aff2e5402ba3b16934519490966bcf14e" title="Executes the given script source code. " alt="" coords="472,56,651,83"/>
+<area shape="rect" id="node5" href="$namespaceon__status__event.html#aaa2bf7fe9dfce590ff5d329de48301c9" title="Handles a status change event from the Twitter streaming API. " alt="" coords="715,15,893,57"/>
+<area shape="rect" id="node7" href="$namespaceon__status__event.html#a250690744e2b7984a97984366f763da4" title="Handles a status change event from the Twitter streaming API. " alt="" coords="699,81,909,122"/>
+<area shape="rect" id="node6" href="$namespacebot.html#ac324965d2c9b4fc7852b19229606d9c6" title="Callback triggered when the stream listener for the Geometrize bot account reports a status event..." alt="" coords="958,15,1133,57"/>
+<area shape="rect" id="node8" href="$namespacebot.html#ad743aa2d31ed3b463ac496e753cde292" title="Callback triggered when the stream listener for tracking specific Twitter accounts reports a status e..." alt="" coords="963,81,1127,122"/>
+</map>

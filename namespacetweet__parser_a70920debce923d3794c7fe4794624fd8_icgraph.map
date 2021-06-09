@@ -1,0 +1,8 @@
+<map id="tweet_parser._make_for_loop" name="tweet_parser._make_for_loop">
+<area shape="rect" id="node2" href="$namespacetweet__parser.html#ab7c481e0992070576d11109a53ad78b0" title="Helper for constructing a ChaiScript script for geometrizing shapes. " alt="" coords="195,38,335,79"/>
+<area shape="rect" id="node3" href="$namespacetweet__parser.html#a239492e3a16a87037ecd20458b93922f" title="Parses the given tweet, returning the ChaiScript code for Geometrize to run based on the contents of ..." alt="" coords="384,38,552,79"/>
+<area shape="rect" id="node4" href="$namespaceon__status__event.html#aaa2bf7fe9dfce590ff5d329de48301c9" title="Handles a status change event from the Twitter streaming API. " alt="" coords="616,5,795,46"/>
+<area shape="rect" id="node6" href="$namespaceon__status__event.html#a250690744e2b7984a97984366f763da4" title="Handles a status change event from the Twitter streaming API. " alt="" coords="600,70,811,111"/>
+<area shape="rect" id="node5" href="$namespacebot.html#ac324965d2c9b4fc7852b19229606d9c6" title="Callback triggered when the stream listener for the Geometrize bot account reports a status event..." alt="" coords="859,5,1034,46"/>
+<area shape="rect" id="node7" href="$namespacebot.html#ad743aa2d31ed3b463ac496e753cde292" title="Callback triggered when the stream listener for tracking specific Twitter accounts reports a status e..." alt="" coords="865,70,1029,111"/>
+</map>

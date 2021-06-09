@@ -1,0 +1,4 @@
+<map id="geometrize._compose_image_path" name="geometrize._compose_image_path">
+<area shape="rect" id="node2" href="$namespacedependency__locator.html#ad07f798498b1a5a0ca255af0cc54f406" title="Composes an absolute path for an image file in the image data folder. " alt="" coords="205,4,365,60"/>
+<area shape="rect" id="node3" href="$namespacedependency__locator.html#a8a9fdd0d3840db5ad80eec3e47ad558c" title="Returns the absolute path the bot image data folder. " alt="" coords="414,4,589,60"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="dependency_locator.get_geometrize_image_file_absolute_path" name="dependency_locator.get_geometrize_image_file_absolute_path">
+<area shape="rect" id="node2" href="$namespacegeometrize.html#a18cc97e3c722d262679d5896fba61c8f" title="geometrize._compose\l_image_path" alt="" coords="243,5,394,46"/>
+<area shape="rect" id="node4" href="$namespaceon__status__event.html#aaa2bf7fe9dfce590ff5d329de48301c9" title="Handles a status change event from the Twitter streaming API. " alt="" coords="229,70,408,111"/>
+<area shape="rect" id="node6" href="$namespaceon__status__event.html#a250690744e2b7984a97984366f763da4" title="Handles a status change event from the Twitter streaming API. " alt="" coords="213,135,424,177"/>
+<area shape="rect" id="node3" href="$namespacegeometrize.html#ac7c82e37aed85bdd97e4f32f60714460" title="Performs some basic tests to ensure that Geometrize can run scripts and turn images into shapes prope..." alt="" coords="473,12,655,39"/>
+<area shape="rect" id="node5" href="$namespacebot.html#ac324965d2c9b4fc7852b19229606d9c6" title="Callback triggered when the stream listener for the Geometrize bot account reports a status event..." alt="" coords="477,70,651,111"/>
+<area shape="rect" id="node7" href="$namespacebot.html#ad743aa2d31ed3b463ac496e753cde292" title="Callback triggered when the stream listener for tracking specific Twitter accounts reports a status e..." alt="" coords="482,135,646,177"/>
+</map>

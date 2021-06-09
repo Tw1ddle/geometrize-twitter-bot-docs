@@ -1,0 +1,10 @@
+<map id="tweet_parser.make_code_for_shape_tweet" name="tweet_parser.make_code_for_shape_tweet">
+<area shape="rect" id="node2" href="$namespacetweet__parser.html#adefcbb013fe569aeba67041badd60051" title="Parses a tweet message and returns a dictionary of the shape types and quantities that were requested..." alt="" coords="222,78,397,119"/>
+<area shape="rect" id="node7" href="$namespacetweet__parser.html#ab7c481e0992070576d11109a53ad78b0" title="Helper for constructing a ChaiScript script for geometrizing shapes. " alt="" coords="239,173,379,214"/>
+<area shape="rect" id="node3" href="$namespacetweet__parser.html#afdab4b1b0698f178f4bf7e12701e728f" title="Creates a dictionary mapping shape keywords to canonical shape names used by ChaiScript scripts Provi..." alt="" coords="450,5,633,46"/>
+<area shape="rect" id="node5" href="$namespacetweet__parser.html#acc99a47a635dbd0edbe1f50ae654e852" title="Returns true if the given string represents an integer value. " alt="" coords="446,71,637,97"/>
+<area shape="rect" id="node6" href="$namespacetweet__parser.html#aa0bd9d5051e59291f62df8347bcac059" title="Gets the maximum number of shapes allowed for the given shape type This to to set a sensible limit on..." alt="" coords="448,122,635,163"/>
+<area shape="rect" id="node4" href="$namespacetweet__parser.html#a4b97bfd4cabd9d9c3abe67965d9b60cd" title="Adds the given items to the given dictionary, mapping each keyword to the given shape name..." alt="" coords="685,5,856,46"/>
+<area shape="rect" id="node8" href="$namespacetweet__parser.html#a70920debce923d3794c7fe4794624fd8" title="Helper for constructing a ChaiScript script for geometrizing shapes. " alt="" coords="471,187,611,229"/>
+<area shape="rect" id="node9" href="$namespacetweet__parser.html#a8c0e09d2ea604cca5c4d7a6049211524" title="Helper for constructing a ChaiScript script for geometrizing shapes. " alt="" coords="701,187,841,229"/>
+</map>

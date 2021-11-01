@@ -1,3 +1,5 @@
+stack: python 3.9
+
 branches:
   only:
     - master
@@ -5,9 +7,9 @@ branches:
 image:
   - Ubuntu2004
   
-#environment:
-#  access_token:
-#    secure: TODO
+environment:
+  GITHUB_API_KEY:
+    secure: pPw+Bpz1oJbhH5UZ3M2DgmGZnXyI9zEBJqQZqTVNwmFdkfZtoRsnBPRa3s8LElGL
 
 install:
   - cd $APPVEYOR_BUILD_FOLDER

@@ -45,7 +45,7 @@ build_script:
   - popd
 
 # Deploy the documentation to GitHub pages
-deploy:
+deploy_script:
   - cd $APPVEYOR_BUILD_FOLDER
 
   - mkdir docs_tmp

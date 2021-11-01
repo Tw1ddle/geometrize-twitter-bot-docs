@@ -12,8 +12,8 @@ image:
 install:
   - cd $APPVEYOR_BUILD_FOLDER
   # Get the Twitter bot library dependencies
-  - "%PYTHON%\\python.exe -m pip install pillow"
-  - "%PYTHON%\\python.exe -m pip install tweepy"
+  - python -m pip install pillow"
+  - python -m pip install tweepy"
   # Get the project submodules
   - chmod +x ./update_submodule.sh
   - ./update_submodule.sh

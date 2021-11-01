@@ -61,10 +61,10 @@ deploy_script:
   
   - pushd gh-pages
   
-  # Reset the gh-pages branch to empty, history and all
-  - git hash-object -t tree /dev/null
-  - git commit-tree -m "Empty commit" 4b825dc642cb6eb9a060e54bf8d69288fbee4904
-  - git reset --hard a5c0737b92e5e5d4502e15b93d7a46d1e17b2b22
+  # Reset the gh-pages branch to nothing, discarding history and all
+  - commitHash=$(git hash-object -t tree /dev/null)
+  - git commit-tree -m "Empty commit" "$commitHash"
+  - git reset --hard "$commitHash"
   
   # Move the newly-generated docs to the gh-pages folder
   - cd $APPVEYOR_BUILD_FOLDER/docs

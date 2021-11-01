@@ -14,10 +14,12 @@ environment:
 install:
   - cd $APPVEYOR_BUILD_FOLDER
   
-  - git config --global user.email "appveyor@appveyor.org"
+  # Configure CI bot git email/username
   - git config --global user.name "AppVeyor CI Bot"
+  - git config --global user.email "appveyor@appveyor.org"
   
   # Install the Twitter bot library dependencies
+  - python -m pip install --upgrade pip
   - python -m pip install pillow
   - python -m pip install tweepy
   
@@ -25,9 +27,9 @@ install:
   - git submodule update --init --recursive
   - git submodule update --remote --merge
 
+  # Push the latest versions of the submodules to the repository
   - |
     if [[ `git status --porcelain` ]]; then
-      # Push the latest version of the Geometrize Twitter bot submodule to the docs repository
       git checkout master
       git add geometrize-twitter-bot
       git commit --message "Build bot updating submodule and rebuilding documentation"
@@ -44,18 +46,25 @@ build_script:
   - doxygen doxygen_config
   - popd
 
-# Deploy the documentation to GitHub pages
+# Deploy the documentation to the GitHub pages branch
 deploy_script:
   - cd $APPVEYOR_BUILD_FOLDER
 
-  - mkdir docs_tmp
-  - pushd docs_tmp
+  - ls
+
+  - mkdir gh-pages
+  - pushd gh-pages
 
   - git clone -b gh-pages "https://${GITHUB_API_KEY}@github.com/Tw1ddle/geometrize-twitter-bot-docs.git" gh-pages
-  - cd gh-pages
+  
+  - ls
+
   #- robocopy ..\html . /E /J /MIR /MT /NFL /XD .git 2>&1
   #- git add --all .
   #- if ($LASTEXITCODE -ne 0) { throw "git add failed: $LASTEXITCODE" }
+
+  - touch CNAME
+  - echo "botdocs.geometrize.co.uk" > CNAME
 
   # Note that when there is nothing to commit, git commit exits with 1.
   - git commit -m "CI bot updating documentation"

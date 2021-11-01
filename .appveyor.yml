@@ -13,38 +13,50 @@ environment:
 
 install:
   - cd $APPVEYOR_BUILD_FOLDER
-  # Get the Twitter bot library dependencies
+  
+  - git config --global user.email "appveyor@appveyor.org"
+  - git config --global user.name "AppVeyor CI Bot"
+  
+  # Install the Twitter bot library dependencies
   - python -m pip install pillow
   - python -m pip install tweepy
-  # Get the project submodules
-  - chmod +x ./update_submodule.sh
-  - ./update_submodule.sh
+  
+  # Get the project submodule
+  - git submodule update --init --recursive
+  - git submodule update --remote --merge
+
+  - |
+    if [[ `git status --porcelain` ]]; then
+      # Push the latest version of the Geometrize Twitter bot submodule to the docs repository
+      git checkout master
+      git add geometrize-twitter-bot
+      git commit --message "Build bot updating submodule and rebuilding documentation"
+      git remote rm origin
+      git remote add origin https://${GITHUB_API_KEY}@github.com/Tw1ddle/geometrize-twitter-bot-docs.git > /dev/null 2>&1
+      git push origin master
+    fi
 
 # Build the documentation
 build_script:
   - cd $APPVEYOR_BUILD_FOLDER
+  
   - pushd doxygen
   - doxygen doxygen_config
   - popd
 
-# Deploy artifacts
-#deploy:
-#  provider: S3
-#  access_key_id: $(AWS_ACCESS_KEY_ID)
-#  secret_access_key: $(AWS_SECRET_ACCESS_KEY)
-#  bucket: $(AWS_S3_BUCKET_NAME)
-#  region: us-east-1
-#  unzip: false
-#  set_public: true
-#  folder: windows/%COMPILER_NAME%
-  
-# Deploy the generated documentation to GitHub Pages
-#deploy:
-#  provider: pages
-#  skip_cleanup: true
-#  local_dir: $TRAVIS_BUILD_DIR/docs/
-#  github_token: $GITHUB_API_KEY
-  # Sets the CNAME file for the custom domain (not enough to just set it on the Github page settings)
-#  fqdn: botdocs.geometrize.co.uk
-#  on:
-#    branch: master
+# Deploy the documentation to GitHub pages
+deploy:
+  - cd $APPVEYOR_BUILD_FOLDER
+
+  - mkdir docs_tmp
+  - pushd docs_tmp
+
+  - git clone -b gh-pages "https://${GITHUB_API_KEY}@github.com/Tw1ddle/geometrize-twitter-bot-docs.git" gh-pages
+  - cd gh-pages
+  #- robocopy ..\html . /E /J /MIR /MT /NFL /XD .git 2>&1
+  #- git add --all .
+  #- if ($LASTEXITCODE -ne 0) { throw "git add failed: $LASTEXITCODE" }
+
+  # Note that when there is nothing to commit, git commit exits with 1.
+  - git commit -m "CI bot updating documentation"
+  - git push origin gh-pages 2>&1 | out-null

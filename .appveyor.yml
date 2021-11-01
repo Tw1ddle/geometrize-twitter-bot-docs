@@ -32,7 +32,7 @@ install:
     if [[ `git status --porcelain` ]]; then
       git checkout master
       git add geometrize-twitter-bot
-      git commit --message "Build bot updating submodule and rebuilding documentation"
+      git commit --message "Build bot updating submodule"
       git remote rm origin
       git remote add origin https://${GITHUB_API_KEY}@github.com/Tw1ddle/geometrize-twitter-bot-docs.git > /dev/null 2>&1
       git push origin master
@@ -48,24 +48,33 @@ build_script:
 
 # Deploy the documentation to the GitHub pages branch
 deploy_script:
+  # Important - get out of the original build folder to avoid accidentally trashing it
   - cd $APPVEYOR_BUILD_FOLDER
+  - cd ..
 
   - ls
 
   - mkdir gh-pages
   - pushd gh-pages
 
-  - git clone -b gh-pages "https://${GITHUB_API_KEY}@github.com/Tw1ddle/geometrize-twitter-bot-docs.git" gh-pages
+  # Get the gh-pages branch as a separate repo
+  - git clone -b gh-pages "https://${GITHUB_API_KEY}@github.com/Tw1ddle/geometrize-twitter-bot-docs.git"
   
-  - ls
+  # Reset the gh-pages branch to empty, history and all
+  - git hash-object -t tree /dev/null
+  - git commit-tree -m "Empty commit" 4b825dc642cb6eb9a060e54bf8d69288fbee4904
+  - git reset --hard a5c0737b92e5e5d4502e15b93d7a46d1e17b2b22
+  
+  # Move the newly-generated docs to the pages folder
+  - cd $APPVEYOR_BUILD_FOLDER/docs
+  - (shopt -s dotglob && mv * ../gh-pages)
+  - cd ../gh-pages
 
-  #- robocopy ..\html . /E /J /MIR /MT /NFL /XD .git 2>&1
-  #- git add --all .
-  #- if ($LASTEXITCODE -ne 0) { throw "git add failed: $LASTEXITCODE" }
-
+  # Specify the domain
   - touch CNAME
   - echo "botdocs.geometrize.co.uk" > CNAME
 
   # Note that when there is nothing to commit, git commit exits with 1.
-  - git commit -m "CI bot updating documentation"
-  - git push origin gh-pages 2>&1 | out-null
+  - git add -A
+  - git commit -m "Build bot updating documentation"
+  - git push -f origin gh-pages

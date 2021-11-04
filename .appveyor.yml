@@ -9,7 +9,7 @@ image:
   
 environment:
   GITHUB_API_KEY:
-    secure: pPw+Bpz1oJbhH5UZ3M2DgmGZnXyI9zEBJqQZqTVNwmFdkfZtoRsnBPRa3s8LElGL
+    secure: w1zaTUARBAuhkAKUke5sBvSkVtlDGL8YfQxROzv5oGIynVJImn
 
 install:
   - cd $APPVEYOR_BUILD_FOLDER

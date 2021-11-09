@@ -1,7 +1,7 @@
 [![Geometrize Logo](https://github.com/Tw1ddle/geometrize-twitter-bot-docs/blob/master/screenshots/logo.png?raw=true "Geometrize library logo")](https://www.geometrize.co.uk/)
 
 [![License](https://img.shields.io/:license-mit-blue.svg?style=flat-square)](https://github.com/Tw1ddle/geometrize-twitter-bot-docs/blob/master/LICENSE)
-[![Geometrize AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/Tw1ddle/geometrize-twitter-bot-docs)](https://ci.appveyor.com/project/Tw1ddle/geometrize-twitter-bot-docs)
+[![Geometrize Build Status](https://ci.appveyor.com/api/projects/status/github/Tw1ddle/geometrize-twitter-bot-docs)](https://ci.appveyor.com/project/Tw1ddle/geometrize-twitter-bot-docs)
 
 Documentation for the [Geometrize](https://www.geometrize.co.uk/) [Twitter bot](https://twitter.com/geometrizer), a tool for geometrizing images into geometric primitives.
 

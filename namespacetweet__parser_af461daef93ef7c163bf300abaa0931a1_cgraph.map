@@ -1,0 +1,11 @@
+<map id="tweet_parser.make_code_for_shape_tweet" name="tweet_parser.make_code_for_shape_tweet">
+<area shape="rect" id="node1" title="Parses the given tweet, returning the ChaiScript code for Geometrize to run based on the contents of ..." alt="" coords="5,72,189,113"/>
+<area shape="rect" id="node2" href="$namespacetweet__parser.html#a136a06fd6bfcfa1d467bead49855270c" title="Helper for constructing a ChaiScript script for geometrizing shapes." alt="" coords="257,23,410,64"/>
+<area shape="rect" id="node5" href="$namespacetweet__parser.html#a14e971816ea9e7bdc882a1e1aa5331f1" title="Parses a tweet message and returns a dictionary of the shape types and quantities that were requested..." alt="" coords="237,104,429,145"/>
+<area shape="rect" id="node3" href="$namespacetweet__parser.html#ad7e7074e02c6ed2bf894120b7228b436" title="Helper for constructing a ChaiScript script for geometrizing shapes." alt="" coords="506,5,659,47"/>
+<area shape="rect" id="node4" href="$namespacetweet__parser.html#a33dc3a52edb09e195f721f6957df1c09" title="Helper for constructing a ChaiScript script for geometrizing shapes." alt="" coords="753,5,906,47"/>
+<area shape="rect" id="node6" href="$namespacetweet__parser.html#ab6e6d7e47f372b773a70650ca8d78046" title="Creates a dictionary mapping shape keywords to canonical shape names used by ChaiScript scripts Provi..." alt="" coords="481,71,684,112"/>
+<area shape="rect" id="node8" href="$namespacetweet__parser.html#a4b0ba870a8afdd1463b31f588835a838" title="Gets the maximum number of shapes allowed for the given shape type This to to set a sensible limit on..." alt="" coords="479,136,686,177"/>
+<area shape="rect" id="node9" href="$namespacetweet__parser.html#a9b856132b435b90806d1ae52edbcb767" title="Returns true if the given string represents an integer value." alt="" coords="477,202,688,229"/>
+<area shape="rect" id="node7" href="$namespacetweet__parser.html#a25ba41a3634d8d90e5a5ae26e6e148a3" title="Adds the given items to the given dictionary, mapping each keyword to the given shape name." alt="" coords="736,71,923,112"/>
+</map>

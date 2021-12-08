@@ -1,0 +1,8 @@
+<map id="tweet_parser._plural_name_for_shape_type" name="tweet_parser._plural_name_for_shape_type">
+<area shape="rect" id="node1" title="Gets a human&#45;readable name for the given shape type." alt="" coords="785,39,959,80"/>
+<area shape="rect" id="node2" href="$namespacetweet__parser.html#ab8423d2b9de7b5c55319f64ec2636556" title="Creates a message for the given shape dictionary, suitable for tweeting along with the result of runn..." alt="" coords="525,39,737,80"/>
+<area shape="rect" id="node3" href="$namespaceon__status__event.html#a2672e35e3edaa18d0b4969a397bd2eeb" title="Handles a status change event from the Twitter streaming API." alt="" coords="247,5,477,47"/>
+<area shape="rect" id="node5" href="$namespaceon__status__event.html#abb56defb78854b27771692f63bd8caa9" title="Handles a status change event from the Twitter streaming API." alt="" coords="264,71,460,112"/>
+<area shape="rect" id="node4" href="$namespacebot.html#a92076da6eaab3640c05f18809b239e3e" title="Callback triggered when the stream listener for tracking specific Twitter accounts reports a status e..." alt="" coords="12,5,192,47"/>
+<area shape="rect" id="node6" href="$namespacebot.html#a0650b4cb9da749ad993602d3901dcb52" title="Callback triggered when the stream listener for the Geometrize bot account reports a status event." alt="" coords="5,71,199,112"/>
+</map>

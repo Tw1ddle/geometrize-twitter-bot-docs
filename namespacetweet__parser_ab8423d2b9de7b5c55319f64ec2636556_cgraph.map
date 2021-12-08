@@ -1,0 +1,4 @@
+<map id="tweet_parser.make_message_for_shape_dictionary" name="tweet_parser.make_message_for_shape_dictionary">
+<area shape="rect" id="node1" title="Creates a message for the given shape dictionary, suitable for tweeting along with the result of runn..." alt="" coords="5,5,217,47"/>
+<area shape="rect" id="node2" href="$namespacetweet__parser.html#a1ccedc98439febab37dfbe9c66db1a7e" title="Gets a human&#45;readable name for the given shape type." alt="" coords="265,5,439,47"/>
+</map>

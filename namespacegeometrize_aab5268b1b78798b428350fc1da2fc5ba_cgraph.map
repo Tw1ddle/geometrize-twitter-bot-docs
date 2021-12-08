@@ -1,0 +1,18 @@
+<map id="geometrize.test_geometrize" name="geometrize.test_geometrize">
+<area shape="rect" id="node1" title="Performs some basic tests to ensure that Geometrize can run scripts and turn images into shapes prope..." alt="" coords="5,188,212,215"/>
+<area shape="rect" id="node2" href="$namespacegeometrize.html#a2b68893c50c1d893c06abd00223c4123" title=" " alt="" coords="300,13,467,54"/>
+<area shape="rect" id="node5" href="$namespacegeometrize.html#a62aaec21a41a01c25f8a29da8354b014" title="Loads up an image from the given filepath." alt="" coords="292,79,475,105"/>
+<area shape="rect" id="node6" href="$namespacegeometrize.html#a7bfdaf68855ace5c353f91333e2daf9e" title="Executes the given script source code." alt="" coords="260,129,507,156"/>
+<area shape="rect" id="node9" href="$namespacescript__wrangler.html#a5693e8241542950f3dc7037cb2129fb0" title="Returns true if the given code contains any ::TAG::s, else false." alt="" coords="305,181,461,222"/>
+<area shape="rect" id="node10" href="$namespaceimage__console__printer.html#ab303cb86f428eacb4aa54307ce0cd90f" title=" " alt="" coords="282,246,485,287"/>
+<area shape="rect" id="node13" href="$namespacedependency__locator.html#a794568c57a993579a773c2cf09f1f5d6" title="Reads a Chaiscript script file out of the Twitter bot scripts folder, returning the text content of t..." alt="" coords="291,311,476,353"/>
+<area shape="rect" id="node16" href="$namespacescript__wrangler.html#ac7c5b40a5a2a22449789d2a189faf33f" title="Replaces all instances of a template ::TAG:: in the given code with the given value." alt="" coords="283,377,484,404"/>
+<area shape="rect" id="node3" href="$namespacedependency__locator.html#a920bf0013c43fe997d67dd344de416b0" title="Composes an absolute path for an image file in the image data folder." alt="" coords="581,5,759,61"/>
+<area shape="rect" id="node4" href="$namespacedependency__locator.html#a5d589d177dce4562c0257af50dd071b6" title="Returns the absolute path the bot image data folder." alt="" coords="851,5,1047,61"/>
+<area shape="rect" id="node7" href="$namespacedependency__locator.html#a31410e8a4edce89da3925d83d275d35e" title="Gets the absolute path to where we expect to find the Geometrize executable." alt="" coords="561,122,779,163"/>
+<area shape="rect" id="node8" href="$namespacedependency__locator.html#a2e036fa3ff6c1650415c46161a7f87b3" title="Gets an absolute path to where we expect to find the Geometrize executable." alt="" coords="833,122,1064,163"/>
+<area shape="rect" id="node11" href="$namespaceimage__console__printer.html#afd0ff1bdcff2d6395bbf16d513af34e4" title=" " alt="" coords="555,238,785,279"/>
+<area shape="rect" id="node12" href="$namespaceimage__console__printer.html#a7abfed780c5427da506f310b70592cd1" title=" " alt="" coords="862,238,1035,279"/>
+<area shape="rect" id="node14" href="$namespacedependency__locator.html#a587d32c33a80cadf445aec244c3811c4" title="Gets an absolute path to the bot scripts folder." alt="" coords="575,304,765,360"/>
+<area shape="rect" id="node15" href="$namespacedependency__locator.html#a710cc713bb3d11b49682ce03089bffed" title="Reads a Chaiscript script file at the given location, returning the text content of the file." alt="" coords="577,385,763,426"/>
+</map>

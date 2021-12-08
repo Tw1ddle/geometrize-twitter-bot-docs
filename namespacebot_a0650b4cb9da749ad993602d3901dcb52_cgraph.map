@@ -1,0 +1,31 @@
+<map id="bot.on_on_demand_status_event" name="bot.on_on_demand_status_event">
+<area shape="rect" id="node1" title="Callback triggered when the stream listener for the Geometrize bot account reports a status event." alt="" coords="5,283,199,324"/>
+<area shape="rect" id="node2" href="$namespaceon__status__event.html#abb56defb78854b27771692f63bd8caa9" title="Handles a status change event from the Twitter streaming API." alt="" coords="247,283,443,324"/>
+<area shape="rect" id="node3" href="$namespaceon__status__event.html#ad6bd791a96f8b409bec620851a51904c" title="Downloads an image from a tweet." alt="" coords="495,5,698,47"/>
+<area shape="rect" id="node4" href="$namespaceon__status__event.html#ac422cb8b6a4d757b5d2148434b972289" title="Tweets an image." alt="" coords="508,71,685,112"/>
+<area shape="rect" id="node5" href="$namespaceon__status__event.html#a7d3731f891514669a92230ed00b790e5" title="Tweets a simple message." alt="" coords="508,136,685,177"/>
+<area shape="rect" id="node6" href="$namespacedependency__locator.html#a920bf0013c43fe997d67dd344de416b0" title="Composes an absolute path for an image file in the image data folder." alt="" coords="507,202,686,258"/>
+<area shape="rect" id="node8" href="$namespacetweet__parser.html#af461daef93ef7c163bf300abaa0931a1" title="Parses the given tweet, returning the ChaiScript code for Geometrize to run based on the contents of ..." alt="" coords="505,283,689,324"/>
+<area shape="rect" id="node17" href="$namespacetweet__parser.html#ab8423d2b9de7b5c55319f64ec2636556" title="Creates a message for the given shape dictionary, suitable for tweeting along with the result of runn..." alt="" coords="491,348,703,389"/>
+<area shape="rect" id="node19" href="$namespacedependency__locator.html#a794568c57a993579a773c2cf09f1f5d6" title="Reads a Chaiscript script file out of the Twitter bot scripts folder, returning the text content of t..." alt="" coords="504,421,689,463"/>
+<area shape="rect" id="node22" href="$namespacegeometrize.html#a7d942e0114d61d66358eb1c243f2bd8e" title="Executes the given script source code." alt="" coords="495,561,698,587"/>
+<area shape="rect" id="node29" href="$namespaceon__status__event.html#a8ff27608ebad7a89487ec791421c2b8c" title="Saves an image to the given filepath, returns true on success, false on failure." alt="" coords="515,612,679,653"/>
+<area shape="rect" id="node7" href="$namespacedependency__locator.html#a5d589d177dce4562c0257af50dd071b6" title="Returns the absolute path the bot image data folder." alt="" coords="776,137,972,193"/>
+<area shape="rect" id="node9" href="$namespacetweet__parser.html#a136a06fd6bfcfa1d467bead49855270c" title="Helper for constructing a ChaiScript script for geometrizing shapes." alt="" coords="797,217,951,259"/>
+<area shape="rect" id="node12" href="$namespacetweet__parser.html#a14e971816ea9e7bdc882a1e1aa5331f1" title="Parses a tweet message and returns a dictionary of the shape types and quantities that were requested..." alt="" coords="778,283,970,324"/>
+<area shape="rect" id="node10" href="$namespacetweet__parser.html#ad7e7074e02c6ed2bf894120b7228b436" title="Helper for constructing a ChaiScript script for geometrizing shapes." alt="" coords="1077,185,1231,227"/>
+<area shape="rect" id="node11" href="$namespacetweet__parser.html#a33dc3a52edb09e195f721f6957df1c09" title="Helper for constructing a ChaiScript script for geometrizing shapes." alt="" coords="1349,185,1503,227"/>
+<area shape="rect" id="node13" href="$namespacetweet__parser.html#ab6e6d7e47f372b773a70650ca8d78046" title="Creates a dictionary mapping shape keywords to canonical shape names used by ChaiScript scripts Provi..." alt="" coords="1053,251,1255,292"/>
+<area shape="rect" id="node15" href="$namespacetweet__parser.html#a4b0ba870a8afdd1463b31f588835a838" title="Gets the maximum number of shapes allowed for the given shape type This to to set a sensible limit on..." alt="" coords="1051,316,1257,357"/>
+<area shape="rect" id="node16" href="$namespacetweet__parser.html#a9b856132b435b90806d1ae52edbcb767" title="Returns true if the given string represents an integer value." alt="" coords="1049,382,1259,409"/>
+<area shape="rect" id="node14" href="$namespacetweet__parser.html#a25ba41a3634d8d90e5a5ae26e6e148a3" title="Adds the given items to the given dictionary, mapping each keyword to the given shape name." alt="" coords="1333,251,1519,292"/>
+<area shape="rect" id="node18" href="$namespacetweet__parser.html#a1ccedc98439febab37dfbe9c66db1a7e" title="Gets a human&#45;readable name for the given shape type." alt="" coords="787,348,961,389"/>
+<area shape="rect" id="node20" href="$namespacedependency__locator.html#a587d32c33a80cadf445aec244c3811c4" title="Gets an absolute path to the bot scripts folder." alt="" coords="779,414,969,470"/>
+<area shape="rect" id="node21" href="$namespacedependency__locator.html#a710cc713bb3d11b49682ce03089bffed" title="Reads a Chaiscript script file at the given location, returning the text content of the file." alt="" coords="781,495,967,536"/>
+<area shape="rect" id="node23" href="$namespacegeometrize.html#a7bfdaf68855ace5c353f91333e2daf9e" title="Executes the given script source code." alt="" coords="751,561,997,587"/>
+<area shape="rect" id="node26" href="$namespacescript__wrangler.html#a5693e8241542950f3dc7037cb2129fb0" title="Returns true if the given code contains any ::TAG::s, else false." alt="" coords="796,612,952,653"/>
+<area shape="rect" id="node27" href="$namespacescript__wrangler.html#a92fc4701bf032e39dd4eb0cb33e667f4" title="Replaces all instances of template ::TAG::s in the code from the given dictionary with their correspo..." alt="" coords="770,678,978,705"/>
+<area shape="rect" id="node24" href="$namespacedependency__locator.html#a31410e8a4edce89da3925d83d275d35e" title="Gets the absolute path to where we expect to find the Geometrize executable." alt="" coords="1045,553,1263,595"/>
+<area shape="rect" id="node25" href="$namespacedependency__locator.html#a2e036fa3ff6c1650415c46161a7f87b3" title="Gets an absolute path to where we expect to find the Geometrize executable." alt="" coords="1311,553,1541,595"/>
+<area shape="rect" id="node28" href="$namespacescript__wrangler.html#ac7c5b40a5a2a22449789d2a189faf33f" title="Replaces all instances of a template ::TAG:: in the given code with the given value." alt="" coords="1053,678,1255,705"/>
+</map>

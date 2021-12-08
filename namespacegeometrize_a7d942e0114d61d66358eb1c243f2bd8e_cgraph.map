@@ -1,0 +1,9 @@
+<map id="geometrize.run_geometrize" name="geometrize.run_geometrize">
+<area shape="rect" id="node1" title="Executes the given script source code." alt="" coords="5,71,208,98"/>
+<area shape="rect" id="node2" href="$namespacegeometrize.html#a7bfdaf68855ace5c353f91333e2daf9e" title="Executes the given script source code." alt="" coords="256,13,503,39"/>
+<area shape="rect" id="node5" href="$namespacescript__wrangler.html#a5693e8241542950f3dc7037cb2129fb0" title="Returns true if the given code contains any ::TAG::s, else false." alt="" coords="301,64,457,105"/>
+<area shape="rect" id="node6" href="$namespacescript__wrangler.html#a92fc4701bf032e39dd4eb0cb33e667f4" title="Replaces all instances of template ::TAG::s in the code from the given dictionary with their correspo..." alt="" coords="275,130,483,157"/>
+<area shape="rect" id="node3" href="$namespacedependency__locator.html#a31410e8a4edce89da3925d83d275d35e" title="Gets the absolute path to where we expect to find the Geometrize executable." alt="" coords="551,5,768,47"/>
+<area shape="rect" id="node4" href="$namespacedependency__locator.html#a2e036fa3ff6c1650415c46161a7f87b3" title="Gets an absolute path to where we expect to find the Geometrize executable." alt="" coords="816,5,1047,47"/>
+<area shape="rect" id="node7" href="$namespacescript__wrangler.html#ac7c5b40a5a2a22449789d2a189faf33f" title="Replaces all instances of a template ::TAG:: in the given code with the given value." alt="" coords="559,130,760,157"/>
+</map>

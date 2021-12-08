@@ -1,0 +1,4 @@
+<map id="on_status_event.on_account_watcher_status_event" name="on_status_event.on_account_watcher_status_event">
+<area shape="rect" id="node1" title="Handles a status change event from the Twitter streaming API." alt="" coords="233,5,464,47"/>
+<area shape="rect" id="node2" href="$namespacebot.html#a92076da6eaab3640c05f18809b239e3e" title="Callback triggered when the stream listener for tracking specific Twitter accounts reports a status e..." alt="" coords="5,5,185,47"/>
+</map>

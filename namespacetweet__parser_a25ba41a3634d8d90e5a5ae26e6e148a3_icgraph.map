@@ -1,0 +1,10 @@
+<map id="tweet_parser._add_shape_type_for_keywords" name="tweet_parser._add_shape_type_for_keywords">
+<area shape="rect" id="node1" title="Adds the given items to the given dictionary, mapping each keyword to the given shape name." alt="" coords="1248,39,1435,80"/>
+<area shape="rect" id="node2" href="$namespacetweet__parser.html#ab6e6d7e47f372b773a70650ca8d78046" title="Creates a dictionary mapping shape keywords to canonical shape names used by ChaiScript scripts Provi..." alt="" coords="997,39,1200,80"/>
+<area shape="rect" id="node3" href="$namespacetweet__parser.html#a14e971816ea9e7bdc882a1e1aa5331f1" title="Parses a tweet message and returns a dictionary of the shape types and quantities that were requested..." alt="" coords="757,39,949,80"/>
+<area shape="rect" id="node4" href="$namespacetweet__parser.html#af461daef93ef7c163bf300abaa0931a1" title="Parses the given tweet, returning the ChaiScript code for Geometrize to run based on the contents of ..." alt="" coords="525,39,709,80"/>
+<area shape="rect" id="node5" href="$namespaceon__status__event.html#a2672e35e3edaa18d0b4969a397bd2eeb" title="Handles a status change event from the Twitter streaming API." alt="" coords="247,5,477,47"/>
+<area shape="rect" id="node7" href="$namespaceon__status__event.html#abb56defb78854b27771692f63bd8caa9" title="Handles a status change event from the Twitter streaming API." alt="" coords="264,71,460,112"/>
+<area shape="rect" id="node6" href="$namespacebot.html#a92076da6eaab3640c05f18809b239e3e" title="Callback triggered when the stream listener for tracking specific Twitter accounts reports a status e..." alt="" coords="12,5,192,47"/>
+<area shape="rect" id="node8" href="$namespacebot.html#a0650b4cb9da749ad993602d3901dcb52" title="Callback triggered when the stream listener for the Geometrize bot account reports a status event." alt="" coords="5,71,199,112"/>
+</map>

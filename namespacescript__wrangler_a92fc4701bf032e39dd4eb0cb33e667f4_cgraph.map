@@ -1,0 +1,4 @@
+<map id="script_wrangler.replace_tags" name="script_wrangler.replace_tags">
+<area shape="rect" id="node1" title="Replaces all instances of template ::TAG::s in the code from the given dictionary with their correspo..." alt="" coords="5,5,213,32"/>
+<area shape="rect" id="node2" href="$namespacescript__wrangler.html#ac7c5b40a5a2a22449789d2a189faf33f" title="Replaces all instances of a template ::TAG:: in the given code with the given value." alt="" coords="261,5,463,32"/>
+</map>

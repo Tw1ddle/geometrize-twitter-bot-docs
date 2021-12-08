@@ -1,0 +1,4 @@
+<map id="tweet_parser._make_shape_keyword_dictionary" name="tweet_parser._make_shape_keyword_dictionary">
+<area shape="rect" id="node1" title="Creates a dictionary mapping shape keywords to canonical shape names used by ChaiScript scripts Provi..." alt="" coords="5,5,208,47"/>
+<area shape="rect" id="node2" href="$namespacetweet__parser.html#a25ba41a3634d8d90e5a5ae26e6e148a3" title="Adds the given items to the given dictionary, mapping each keyword to the given shape name." alt="" coords="256,5,443,47"/>
+</map>

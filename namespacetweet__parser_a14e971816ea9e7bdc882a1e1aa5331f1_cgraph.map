@@ -1,0 +1,7 @@
+<map id="tweet_parser.make_shape_quantity_dictionary" name="tweet_parser.make_shape_quantity_dictionary">
+<area shape="rect" id="node1" title="Parses a tweet message and returns a dictionary of the shape types and quantities that were requested..." alt="" coords="5,71,197,112"/>
+<area shape="rect" id="node2" href="$namespacetweet__parser.html#ab6e6d7e47f372b773a70650ca8d78046" title="Creates a dictionary mapping shape keywords to canonical shape names used by ChaiScript scripts Provi..." alt="" coords="249,5,452,47"/>
+<area shape="rect" id="node4" href="$namespacetweet__parser.html#a4b0ba870a8afdd1463b31f588835a838" title="Gets the maximum number of shapes allowed for the given shape type This to to set a sensible limit on..." alt="" coords="247,71,454,112"/>
+<area shape="rect" id="node5" href="$namespacetweet__parser.html#a9b856132b435b90806d1ae52edbcb767" title="Returns true if the given string represents an integer value." alt="" coords="245,137,456,163"/>
+<area shape="rect" id="node3" href="$namespacetweet__parser.html#a25ba41a3634d8d90e5a5ae26e6e148a3" title="Adds the given items to the given dictionary, mapping each keyword to the given shape name." alt="" coords="504,5,691,47"/>
+</map>

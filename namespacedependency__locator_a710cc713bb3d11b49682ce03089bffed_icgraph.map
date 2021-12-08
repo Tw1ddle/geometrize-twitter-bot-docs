@@ -1,0 +1,9 @@
+<map id="dependency_locator.read_script_file" name="dependency_locator.read_script_file">
+<area shape="rect" id="node1" title="Reads a Chaiscript script file at the given location, returning the text content of the file." alt="" coords="759,71,944,112"/>
+<area shape="rect" id="node2" href="$namespacedependency__locator.html#a794568c57a993579a773c2cf09f1f5d6" title="Reads a Chaiscript script file out of the Twitter bot scripts folder, returning the text content of t..." alt="" coords="525,71,711,112"/>
+<area shape="rect" id="node3" href="$namespaceon__status__event.html#a2672e35e3edaa18d0b4969a397bd2eeb" title="Handles a status change event from the Twitter streaming API." alt="" coords="247,5,477,47"/>
+<area shape="rect" id="node5" href="$namespaceon__status__event.html#abb56defb78854b27771692f63bd8caa9" title="Handles a status change event from the Twitter streaming API." alt="" coords="264,71,460,112"/>
+<area shape="rect" id="node7" href="$namespacegeometrize.html#aab5268b1b78798b428350fc1da2fc5ba" title="Performs some basic tests to ensure that Geometrize can run scripts and turn images into shapes prope..." alt="" coords="259,137,465,163"/>
+<area shape="rect" id="node4" href="$namespacebot.html#a92076da6eaab3640c05f18809b239e3e" title="Callback triggered when the stream listener for tracking specific Twitter accounts reports a status e..." alt="" coords="12,5,192,47"/>
+<area shape="rect" id="node6" href="$namespacebot.html#a0650b4cb9da749ad993602d3901dcb52" title="Callback triggered when the stream listener for the Geometrize bot account reports a status event." alt="" coords="5,71,199,112"/>
+</map>

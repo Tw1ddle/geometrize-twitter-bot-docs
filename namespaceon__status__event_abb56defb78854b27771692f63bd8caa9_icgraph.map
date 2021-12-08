@@ -1,0 +1,4 @@
+<map id="on_status_event.on_on_demand_status_event" name="on_status_event.on_on_demand_status_event">
+<area shape="rect" id="node1" title="Handles a status change event from the Twitter streaming API." alt="" coords="247,5,443,47"/>
+<area shape="rect" id="node2" href="$namespacebot.html#a0650b4cb9da749ad993602d3901dcb52" title="Callback triggered when the stream listener for the Geometrize bot account reports a status event." alt="" coords="5,5,199,47"/>
+</map>
